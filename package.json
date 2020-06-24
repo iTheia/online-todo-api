@@ -1,0 +1,31 @@
+{
+  "name": "online-todo",
+  "version": "1.0.0",
+  "description": "Una todo list con funcionalidad de usuarios",
+  "main": "index.js",
+  "scripts": {
+    "start": "SET NODE_ENV=dev&nodemon -r dotenv/config index.js"
+  },
+  "keywords": [],
+  "author": "iTheia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iTheia/online-todo/issues"
+  },
+  "homepage": "https://github.com/iTheia/online-todo#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "express-validator": "^6.5.0",
+    "joi": "^14.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.9.18",
+    "nodemon": "^2.0.4"
+  }
+}
